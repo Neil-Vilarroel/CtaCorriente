@@ -13,12 +13,12 @@
     <spring-boot.version>2.5.6</spring-boot.version>
   </properties>
   
-<dependencies>
+  <dependencies>
     <!-- Dependencias principales -->
     <dependency>
         <groupId>mysql</groupId>
         <artifactId>mysql-connector-java</artifactId>
-        <version>8.0.28</version>A
+        <version>8.0.28</version>
     </dependency>
     <dependency>
         <groupId>org.apache.openejb</groupId>
@@ -59,27 +59,26 @@
     <dependency>
         <groupId>org.springframework.security</groupId>
         <artifactId>spring-security-config</artifactId>
-      <version>5.7.7</version>
-      <type>jar</type>
+        <version>5.7.7</version>
+        <type>jar</type>
     </dependency>
     <dependency>
-    <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-java</artifactId>
-    <version>3.141.59</version>
-</dependency>
-<dependency>
-    <groupId>io.cucumber</groupId>
-    <artifactId>cucumber-java</artifactId>
-    <version>7.0.0</version>
-    <scope>test</scope>
-</dependency>
-<dependency>
-    <groupId>io.cucumber</groupId>
-    <artifactId>cucumber-junit</artifactId>
-    <version>7.0.0</version>
-    <scope>test</scope>
-</dependency>
-
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>3.141.59</version>
+    </dependency>
+    <dependency>
+        <groupId>io.cucumber</groupId>
+        <artifactId>cucumber-java</artifactId>
+        <version>7.0.0</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>io.cucumber</groupId>
+        <artifactId>cucumber-junit</artifactId>
+        <version>7.0.0</version>
+        <scope>test</scope>
+    </dependency>
 </dependencies>
 
 
@@ -87,7 +86,7 @@
   <build>
     <plugins>
       <plugin>
-        <groupId>org.apache.maven.plugins</groupId>A
+        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.1</version> <!-- Asegúrate de utilizar la versión más reciente del plugin -->
         <configuration>
